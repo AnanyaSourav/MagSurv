@@ -1,0 +1,81 @@
+{
+  "RF": {
+    "balanced_accuracy": 0.5798,
+    "report": {
+      "Europa_ocean_analog": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 30.0
+      },
+      "Mars_acidic_analog": {
+        "precision": 0.7647058823529411,
+        "recall": 0.41935483870967744,
+        "f1-score": 0.5416666666666666,
+        "support": 31.0
+      },
+      "Mars_lake_analog": {
+        "precision": 0.8587786259541985,
+        "recall": 0.9868421052631579,
+        "f1-score": 0.9183673469387755,
+        "support": 228.0
+      },
+      "accuracy": 0.8581314878892734,
+      "macro avg": {
+        "precision": 0.87449483610238,
+        "recall": 0.5798434257687228,
+        "f1-score": 0.6533446712018139,
+        "support": 289.0
+      },
+      "weighted avg": {
+        "precision": 0.8633474362300985,
+        "recall": 0.8581314878892734,
+        "f1-score": 0.8345308711719982,
+        "support": 289.0
+      }
+    }
+  },
+  "MLP": {
+    "balanced_accuracy": 0.7164,
+    "fold_scores": [
+      0.686,
+      0.686,
+      0.7198,
+      0.7497,
+      0.7481
+    ],
+    "report": {
+      "Europa_ocean_analog": {
+        "precision": 0.6296296296296297,
+        "recall": 0.5666666666666667,
+        "f1-score": 0.5964912280701754,
+        "support": 30.0
+      },
+      "Mars_acidic_analog": {
+        "precision": 0.4583333333333333,
+        "recall": 0.7096774193548387,
+        "f1-score": 0.5569620253164557,
+        "support": 31.0
+      },
+      "Mars_lake_analog": {
+        "precision": 0.9299065420560748,
+        "recall": 0.8728070175438597,
+        "f1-score": 0.9004524886877828,
+        "support": 228.0
+      },
+      "accuracy": 0.8235294117647058,
+      "macro avg": {
+        "precision": 0.6726231683396793,
+        "recall": 0.716383701188455,
+        "f1-score": 0.684635247358138,
+        "support": 289.0
+      },
+      "weighted avg": {
+        "precision": 0.8481519509031394,
+        "recall": 0.8235294117647058,
+        "f1-score": 0.8320544188502763,
+        "support": 289.0
+      }
+    }
+  }
+}
