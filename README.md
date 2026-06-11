@@ -35,7 +35,6 @@ Five genomes from hydrothermal/subsurface environments (Enceladus-analog) were i
 ## Dataset
 
 - **Source:** GdbMTB — Genomic Database of Magnetotactic Bacteria (Ji et al. 2026)
-- **Figshare record:** [14876944](https://figshare.com/s/14876944)
 - **Starting genomes:** 365
 - **Quality filter:** CheckM2 (NN model) completeness ≥ 70%, contamination ≤ 10%, GUNC pass = True
 - **Genomes passing QC:** 295 / 365 (80.8%)
@@ -152,5 +151,3 @@ Europa ocean analog genomes carry GC-enriched unique k-mers. Mars acidic analog 
 | `tableS5_kmer_overlap.csv` | Top-50 SHAP k-mer overlap counts between every class pair |
 
 ---
-
-## Repository structure
