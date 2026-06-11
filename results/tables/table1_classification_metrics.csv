@@ -1,0 +1,9 @@
+Model,Class,Precision,Recall,F1,Support,Balanced_Accuracy
+RF,Europa_ocean_analog,1.0,0.333,0.5,30,0.5798
+RF,Mars_acidic_analog,0.765,0.419,0.542,31,0.5798
+RF,Mars_lake_analog,0.859,0.987,0.918,228,0.5798
+RF,macro avg,0.874,0.58,0.653,289,0.5798
+MLP,Europa_ocean_analog,0.63,0.567,0.596,30,0.7164
+MLP,Mars_acidic_analog,0.458,0.71,0.557,31,0.7164
+MLP,Mars_lake_analog,0.93,0.873,0.9,228,0.7164
+MLP,macro avg,0.673,0.716,0.685,289,0.7164

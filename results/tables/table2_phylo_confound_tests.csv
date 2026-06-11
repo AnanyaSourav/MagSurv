@@ -1,0 +1,7 @@
+,value
+T1_kmer_predicts_phylum,0.4009
+T2_within_Pseudomonadota,0.537
+T3_kmer_only,0.5798
+T3_kmer_plus_phylum,0.5691
+T3_delta,-0.0108
+T4_phylum_only_null,0.6008

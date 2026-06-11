@@ -1,0 +1,4 @@
+planetary_analog,n,gc_mean,gc_std,gc_min,gc_max,completeness_mean,completeness_std,contamination_mean,n50_median
+Europa_ocean_analog,31,50.77,7.44,34.61,62.67,91.37,9.2,2.14,22682.0
+Mars_acidic_analog,31,47.16,6.78,35.21,62.81,87.25,10.01,1.63,34545.0
+Mars_lake_analog,228,52.94,9.23,31.52,68.88,91.72,8.94,1.68,32047.0
